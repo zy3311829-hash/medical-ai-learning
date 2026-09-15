@@ -1,0 +1,12 @@
+PyMIC_data/
+*/*/model/
+*/*/result/
+seg_semi_sup/BraTS19_WT/
+seg_semi_sup/FLARE/
+seg_semi_sup/AtriaSeg_dev/
+*.pptx
+*.xlsx
+*.zip
+*.pyc
+*~*
+*_dev.sh

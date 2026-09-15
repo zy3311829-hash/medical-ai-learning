@@ -1,0 +1,87 @@
+# Python bytecode and caches
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+.env
+.env.*
+!.env.example
+
+# Jupyter and test/tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local datasets (keep small configuration/split files elsewhere)
+image_classification/data/
+image_classification/cifar10_reference/data/
+pyMIC Medical Segmentation/data/
+PyMIC_data/
+
+# Common medical-imaging and array dataset formats
+*.nii
+*.nii.gz
+*.dcm
+*.mha
+*.mhd
+*.nrrd
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+**/checkpoint/
+**/checkpoints/
+image_classification/models/
+pyMIC Medical Segmentation/model/
+
+# Training outputs and experiment logs
+**/result/
+**/results/
+**/output/
+**/outputs/
+**/log/
+**/logs/
+**/run/
+**/runs/
+**/wandb/
+tensorboard/
+events.out.tfevents.*
+log_train_*.txt
+
+# Dataset archives and other bulky archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.bak
+~$*
